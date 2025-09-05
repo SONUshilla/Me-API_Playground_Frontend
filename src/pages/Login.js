@@ -10,7 +10,7 @@ export default function Login() {
   const handleLogin = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post("http://localhost:5000/auth/login", {
+      const res = await axios.post("https://me-api-playground-backend-cmlw.onrender.com/auth/login", {
         mobile,
         password,
       });
