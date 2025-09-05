@@ -10,7 +10,7 @@ export default function Register() {
   const handleRegister = async (e) => {
     e.preventDefault();
     try {
-      await axios.post("http://localhost:5000/auth/register", { mobile, password });
+      await axios.post("https://me-api-playground-backend-cmlw.onrender.com/auth/register", { mobile, password });
       alert("✅ Registered successfully! Please login.");
       navigate("/login");
     } catch (err) {
