@@ -3,7 +3,7 @@ import axios from "axios";
 
 // Create axios instance
 const api = axios.create({
-  baseURL: "http://localhost:5000",
+  baseURL: "https://me-api-playground-backend-cmlw.onrender.com/",
 });
 
 // Attach token to every request
